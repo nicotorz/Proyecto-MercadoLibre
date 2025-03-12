@@ -1,0 +1,75 @@
+.main {
+  display: flex;
+}
+
+.purchase-inputs {
+  width: 576px;
+  height: 480px;
+  gap: 100px;
+  border-radius: 8px;
+  background-color: white;
+  margin: 100px auto; 
+  padding: 20px; 
+}
+
+.purchase-inputs hr{
+  margin-bottom: 10px;
+}
+
+.purchase-inputs h2{
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+  
+
+.purchase-button {
+  background-color: #3483FA;
+  width: 535px;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.purchase-button:hover {
+  background-color: #156bdd;
+}
+  
+.loading-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(94, 92, 92, 0.8); /* Fondo semi-transparente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(5px); /* Desenfoque */
+  z-index: 10;
+}
+
+/* Spinner de carga */
+.spinner {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3483FA;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+  
+
+.cart-summary-purchase{
+  margin-top: 50px;
+  margin-right: 100px;
+}
+    
+    
+    

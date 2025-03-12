@@ -1,0 +1,90 @@
+.user-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.user-content {
+    width: 100%;
+    max-width: 1000px;
+    height: 622px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.user-header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px; 
+}
+
+.userName {
+    font-size: 24px; 
+}
+
+.userFunctionality {
+    display:flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 14px;
+}
+
+li ul {
+    display: inline;
+    cursor: pointer;
+}
+
+.addProduct {
+    text-decoration: none;
+    color: #000
+}
+
+.user-info {
+    font-size: 20px;
+    list-style: none;
+    padding: 0;
+    
+}
+
+.user-info ul {
+    padding: 5px;
+}
+
+span:hover {
+    color: #3483FA;
+}
+
+.userLogout {
+    width: 79px;
+    height: 34px;
+    border-radius: 8px 8px 8px 8px;
+    background-color: #3483FA;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.userLogout:hover {
+    background-color: #26559C;
+}
+
+.products-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.user-info ul.active {
+    color: #3483FA; 
+}
+

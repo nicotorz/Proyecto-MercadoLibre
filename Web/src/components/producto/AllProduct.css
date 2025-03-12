@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+.content{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 90px;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+
+.page{
+    display:flex ;    
+    flex-direction: row;  
+    justify-content: center;
+    align-items: center;
+}

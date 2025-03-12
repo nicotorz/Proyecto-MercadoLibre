@@ -1,0 +1,33 @@
+.category {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  width: 212px;
+  height: 106px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.category:hover {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1); 
+}
+
+.category-icon {  
+  padding: 0px;
+  width: 48px;
+  height: 48px;
+  fill: #3483FA;
+}
+  
+.category-name p {
+  font-size: 16px;
+  color: #333; 
+  margin-top: 10px;
+  padding-right: 15px;
+}
+

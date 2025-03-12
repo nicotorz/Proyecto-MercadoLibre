@@ -1,0 +1,33 @@
+.product-title{
+    width:968px;
+    height: 28px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.product-container{
+    width: 1000px; 
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 90px;
+    padding: 24px 16px 24px 16px;
+    border-radius: 8px ;
+    background:  #FFFFFF;
+}
+
+.line2{
+    width: 968px;
+    border: 1px 0px 0px 0px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+.msg-error{
+    padding-bottom: 5px;
+}
+ 

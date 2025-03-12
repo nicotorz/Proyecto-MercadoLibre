@@ -1,0 +1,28 @@
+.block{
+    width: 381px;
+    height: 59px;
+    gap: 8px;
+}
+
+.title{
+    width: 43px;
+    height: 19px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19.36px;
+    text-align: left;
+    color: #000000;
+}
+.input-box{
+    width:381px;
+    height: 32px;
+    padding: 10px;
+    border-radius: 4px ;
+    border:1px solid aliceblue;
+    box-shadow: 0px 0px 4px 0px #00000026;
+    background:  #FFFFFF;
+    
+}
+
+

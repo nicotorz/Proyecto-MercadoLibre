@@ -1,0 +1,94 @@
+.characteristics-block{
+    width: 968px;
+    height: 190.53px;
+    
+}
+
+.block-charact{
+    display: flex;
+    width: 968px;
+    height:34px;
+    gap: 24px;
+
+}
+
+.caracteristicas{
+    width: 70px;
+    height: 19px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19.36px;
+    text-align: left;
+    color:  #000000E5;
+}
+
+.input-carac{
+    width: 417.5px;
+    height:32px;
+    gap: 10px;
+    padding: 0px 0px 0px 10px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 4px 0px #00000026;
+
+}
+
+.buton-add{
+    width: 138px;
+    height: 34px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 8px;
+    background: #3483FA;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+
+.list-char{
+    width: 968px;
+    height: 98px;
+    padding: 8px 16px 8px 16px;
+    gap: 14px;
+    display: block;
+    max-height: auto;
+    overflow-y: auto;
+    max-width: none;
+}
+
+.list{
+    width: 936px;
+    height: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    
+}
+
+.text{
+    width: 100px;
+    height: 18px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+    color: #000000;
+
+}
+
+.texts-empty{
+    width: 936px;
+    height: 78px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #00000099;
+}
+
+

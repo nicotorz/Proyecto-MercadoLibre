@@ -1,0 +1,24 @@
+.navPage{
+  display:flex ;    
+  justify-content: center;
+  gap: 4px;
+  align-self: flex-end;
+  margin-top: 5px;
+  
+}
+
+.btn{
+  background: transparent;
+  border: 0px;
+  cursor: pointer;
+}
+
+.contador{
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 18px;
+  text-align: left;
+  padding-top: 3px;
+  color:  #333333;
+}

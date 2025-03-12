@@ -1,0 +1,38 @@
+.productid-characteristics-block{
+    width: 1000px;
+    height: 261.97px;
+    padding: 16px;
+    gap: 16px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.productid-characteristics{
+    width:968px;
+    height: 100px;
+    padding: 16px;
+    gap: 24px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.characteristic-item{
+    width: 468px;
+    height: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-value{
+    width: 102px;
+    height: 18px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;    
+    color: #000000;
+}

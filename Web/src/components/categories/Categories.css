@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.category-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.category-title {
+    display: flex;
+    align-items: center; 
+    margin-top: 80px;
+    padding-left: 0;
+}
+
+.content-categoryProd {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    padding: 20px;
+}
+
+.contenedor-categoryProd {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 34px;
+}

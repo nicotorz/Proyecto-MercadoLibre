@@ -1,0 +1,31 @@
+.products-related-block{
+    width: 1000px;
+    height: 984px;
+    padding: 16px;
+    gap: 16px;
+    border-radius: 8px;
+    opacity: 0px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products-related{
+    width: 968px;
+    height: 898.32px;
+    gap: 10px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-height: auto;
+    overflow-y: auto;
+}
+
+.product-id-line{
+    width: 968px;
+    height: 0px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    color: #000000;
+}

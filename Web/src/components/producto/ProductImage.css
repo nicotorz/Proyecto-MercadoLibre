@@ -1,0 +1,113 @@
+.image-block{
+    width: 968px;
+    height: 190.53px;
+    background:  #FFFFFF;
+    gap: 24px;
+}
+
+.block-image{
+    width: 968px;
+    height: 61px;
+    gap: 8px;
+
+}
+
+.images{
+    width: 73px;
+    height: 19px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19.36px;
+    text-align: left;
+    color: #000000E5;
+
+}
+
+.add-image{
+    width: 968px;
+    height: 34px;
+    gap: 24px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.input-image{
+    width: 806px;
+    height: 32px;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 4px 0px #00000026;
+}
+
+.buton-imag{
+    width: 138px;
+    height: 34px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 8px;
+    background: #3483FA;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.list-images{
+    width: 968px;
+    height: 98px;
+    padding: 8px 16px 8px 16px;
+    gap: 14px;
+    display: block;
+    max-height: auto;
+    overflow-y: auto;
+}
+
+.list-image{
+    width: 936px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.url {
+    width: 663px;
+    height: 18px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #000;
+    display: inline-block;
+}
+
+.buton-delete{
+    width: 43px;
+    height: 18px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: center;
+    color:#3483FA;
+    background-color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+
+}
+
+.no-text {
+    width: 936px;
+    height: 78px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #00000099;
+}
+
